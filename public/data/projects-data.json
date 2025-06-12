@@ -1,0 +1,44 @@
+[
+  {
+    "id": "proj1",
+    "title": "EcoTrack Analyzer",
+    "image": "https://placehold.co/600x400.png",
+    "imageAiHint": "nature data",
+    "domain": "Environmental Tech",
+    "duration": "6 Months (2023)",
+    "client": "Green Initiatives Org",
+    "service": "Web Application Development",
+    "description": "A platform for analyzing environmental data to promote sustainability.",
+    "longDescription": "EcoTrack Analyzer is a comprehensive web application designed to help organizations monitor, analyze, and report on their environmental impact. It features real-time data visualization, predictive analytics, and automated reporting, enabling users to make informed decisions towards greater sustainability. Built with a modern stack for performance and scalability.",
+    "techStack": ["Next.js", "TypeScript", "Python (Flask)", "PostgreSQL", "D3.js"],
+    "liveLink": "#",
+    "repoLink": "#"
+  },
+  {
+    "id": "proj2",
+    "title": "AI Art Generator",
+    "image": "https://placehold.co/600x400.png",
+    "imageAiHint": "abstract art",
+    "domain": "Artificial Intelligence",
+    "duration": "4 Months (2022)",
+    "service": "Machine Learning Model & API",
+    "description": "A generative AI model that creates unique artworks based on text prompts.",
+    "longDescription": "This project involved developing a deep learning model (GAN) capable of generating novel images from textual descriptions. The system includes a user-friendly interface for prompt input and an API for integration into other applications. Focused on exploring the creative potential of AI.",
+    "techStack": ["Python", "TensorFlow", "FastAPI", "React"],
+    "repoLink": "#"
+  },
+  {
+    "id": "proj3",
+    "title": "SmartLearn Platform",
+    "image": "https://placehold.co/600x400.png",
+    "imageAiHint": "education technology",
+    "domain": "EdTech",
+    "duration": "8 Months (2021-2022)",
+    "client": "FutureEd Solutions",
+    "service": "E-learning Platform Development",
+    "description": "An adaptive e-learning platform personalizing educational content for students.",
+    "longDescription": "SmartLearn is an innovative e-learning solution that leverages AI to adapt content delivery to individual student learning styles and paces. It features interactive modules, progress tracking, and collaborative tools, aiming to make education more engaging and effective. The platform supports various media types and assessment methods.",
+    "techStack": ["Angular", "Node.js", "MongoDB", "AWS S3"],
+    "liveLink": "#"
+  }
+]

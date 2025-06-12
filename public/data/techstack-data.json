@@ -1,0 +1,14 @@
+[
+  { "id": "ts1", "name": "JavaScript", "iconName": "FileJson", "category": "Languages", "proficiency": 95 },
+  { "id": "ts2", "name": "TypeScript", "iconName": "FileCode", "category": "Languages", "proficiency": 90 },
+  { "id": "ts3", "name": "Python", "iconName": "Binary", "category": "Languages", "proficiency": 85 },
+  { "id": "ts4", "name": "React", "iconName": "Atom", "category": "Frontend", "proficiency": 95 },
+  { "id": "ts5", "name": "Next.js", "iconName": "Webhook", "category": "Frontend", "proficiency": 90 },
+  { "id": "ts6", "name": "Node.js", "iconName": "Server", "category": "Backend", "proficiency": 90 },
+  { "id": "ts7", "name": "Express.js", "iconName": "Network", "category": "Backend", "proficiency": 85 },
+  { "id": "ts8", "name": "PostgreSQL", "iconName": "Database", "category": "Databases", "proficiency": 80 },
+  { "id": "ts9", "name": "MongoDB", "iconName": "Container", "category": "Databases", "proficiency": 75 },
+  { "id": "ts10", "name": "Docker", "iconName": "Box", "category": "DevOps", "proficiency": 80 },
+  { "id": "ts11", "name": "AWS", "iconName": "Cloud", "category": "Cloud", "proficiency": 70 },
+  { "id": "ts12", "name": "Git", "iconName": "GitMerge", "category": "Tools", "proficiency": 95 }
+]

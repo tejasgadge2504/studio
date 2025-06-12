@@ -1,0 +1,15 @@
+{
+  "name": "Alex Innovator",
+  "tagline": "Full-Stack Developer | UI/UX Enthusiast | Tech Explorer",
+  "email": "alex.innovator@example.com",
+  "aboutMe": "I'm a passionate and results-driven developer with a knack for crafting elegant solutions to complex problems. With a strong foundation in modern web technologies and a keen eye for user experience, I strive to build applications that are not only functional but also intuitive and enjoyable to use. I'm constantly learning and exploring new frontiers in tech, always eager to take on new challenges.",
+  "profilePicture": "https://placehold.co/400x400.png",
+  "profilePictureAiHint": "developer portrait",
+  "resumeUrl": "/resume_alex_innovator.pdf",
+  "socialLinks": {
+    "github": "https://github.com/alexinnovator",
+    "linkedin": "https://linkedin.com/in/alexinnovator",
+    "twitter": "https://twitter.com/alexinnovator",
+    "portfolio": "https://alexinnovator.dev"
+  }
+}

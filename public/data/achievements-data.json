@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ach1",
+    "title": "First Place, InnovateX Hackathon 2023",
+    "description": "Led a team to develop a prize-winning solution for urban sustainability using IoT and AI.",
+    "year": 2023,
+    "iconName": "Trophy",
+    "link": "#"
+  },
+  {
+    "id": "ach2",
+    "title": "Certified Kubernetes Application Developer (CKAD)",
+    "description": "Achieved CKAD certification, demonstrating expertise in designing, building, and deploying cloud-native applications on Kubernetes.",
+    "year": 2022,
+    "iconName": "Award",
+    "link": "#"
+  },
+  {
+    "id": "ach3",
+    "title": "Speaker at TechForward Conference 2021",
+    "description": "Presented on 'The Future of Serverless Architectures' to an audience of industry professionals.",
+    "year": "2021",
+    "iconName": "Presentation",
+    "link": "#"
+  },
+  {
+    "id": "ach4",
+    "title": "Open Source Contributor - NovaUI Library",
+    "description": "Contributed significant features and bug fixes to a popular open-source UI component library.",
+    "year": "Ongoing",
+    "iconName": "Github",
+    "link": "#"
+  }
+]

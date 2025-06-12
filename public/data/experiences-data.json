@@ -1,0 +1,30 @@
+[
+  {
+    "id": "exp1",
+    "company": "Innovatech Solutions",
+    "role": "Senior Software Engineer",
+    "duration": "Jan 2022 - Present",
+    "responsibilities": [
+      "Led the development of key features for flagship SaaS product, improving user engagement by 20%.",
+      "Mentored junior developers and conducted code reviews to maintain high code quality standards.",
+      "Collaborated with cross-functional teams to define project scope, requirements, and deliverables.",
+      "Architected and implemented scalable microservices using Node.js and Docker."
+    ],
+    "logo": "https://placehold.co/100x100.png",
+    "logoAiHint": "modern office"
+  },
+  {
+    "id": "exp2",
+    "company": "NextGen Web Ltd.",
+    "role": "Full-Stack Developer",
+    "duration": "Jun 2019 - Dec 2021",
+    "responsibilities": [
+      "Developed and maintained responsive web applications using React and Python (Django).",
+      "Integrated third-party APIs for payment processing and social media logins.",
+      "Contributed to database design and optimization (PostgreSQL).",
+      "Participated in agile development cycles, including sprint planning and daily stand-ups."
+    ],
+    "logo": "https://placehold.co/100x100.png",
+    "logoAiHint": "abstract technology"
+  }
+]
