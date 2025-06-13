@@ -26,5 +26,33 @@
     ],
     "logo": "https://placehold.co/100x100.png",
     "logoAiHint": "abstract technology"
+  },
+  {
+    "id": "exp3",
+    "company": "NextGen Web Ltd.",
+    "role": "Full-Stack Developer",
+    "duration": "Jun 2019 - Dec 2021",
+    "responsibilities": [
+      "Developed and maintained responsive web applications using React and Python (Django).",
+      "Integrated third-party APIs for payment processing and social media logins.",
+      "Contributed to database design and optimization (PostgreSQL).",
+      "Participated in agile development cycles, including sprint planning and daily stand-ups."
+    ],
+    "logo": "https://placehold.co/100x100.png",
+    "logoAiHint": "abstract technology"
+  },
+  {
+    "id": "exp4",
+    "company": "NextGen Web Ltd.",
+    "role": "Full-Stack Developer",
+    "duration": "Jun 2019 - Dec 2021",
+    "responsibilities": [
+      "Developed and maintained responsive web applications using React and Python (Django).",
+      "Integrated third-party APIs for payment processing and social media logins.",
+      "Contributed to database design and optimization (PostgreSQL).",
+      "Participated in agile development cycles, including sprint planning and daily stand-ups."
+    ],
+    "logo": "https://placehold.co/100x100.png",
+    "logoAiHint": "abstract technology"
   }
 ]

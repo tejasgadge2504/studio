@@ -1,15 +1,15 @@
 {
-  "name": "Alex Innovator",
-  "tagline": "Full-Stack Developer | UI/UX Enthusiast | Tech Explorer",
-  "email": "alex.innovator@example.com",
-  "aboutMe": "I'm a passionate and results-driven developer with a knack for crafting elegant solutions to complex problems. With a strong foundation in modern web technologies and a keen eye for user experience, I strive to build applications that are not only functional but also intuitive and enjoyable to use. I'm constantly learning and exploring new frontiers in tech, always eager to take on new challenges.",
+  "name": "Tejas Gadge",
+  "tagline": "Full-Stack Developer | ML Enthusiast | Educator",
+  "email": "tejasgadge903@gmail.com",
+  "aboutMe": " Computer Engineering student specializing in Data Analysis, Machine Learning, and Flutter App Development. Experienced incrafting AI-driven apps, predictive models, and user-centric solutions while excelling in hackathons and research initiatives.",
   "profilePicture": "https://placehold.co/400x400.png",
-  "profilePictureAiHint": "developer portrait",
-  "resumeUrl": "/resume_alex_innovator.pdf",
+  "profilePictureAiHint": "Tejas Gadge",
+  "resumeUrl": "https://drive.google.com/drive/folders/150WReePqBEwUpgVVSRLu0smmbhMe5PpD?usp=sharing",
   "socialLinks": {
-    "github": "https://github.com/alexinnovator",
-    "linkedin": "https://linkedin.com/in/alexinnovator",
-    "twitter": "https://twitter.com/alexinnovator",
-    "portfolio": "https://alexinnovator.dev"
+    "github": "https://github.com/tejasgadge2504",
+    "linkedin": "https://www.linkedin.com/in/tejas-gadge-8a395b258/",
+    "twitter": "https://x.com/TEJASGADGE2504",
+    "portfolio": "https://www.instagram.com/tejas.gadge.108/"
   }
 }

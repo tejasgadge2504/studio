@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Github, Linkedin, Twitter, Briefcase } from 'lucide-react';
 import Link from 'next/link';
+import ProfilePic from '../sections/tejas.png';
 
 interface AboutSectionProps {
   profile: ProfileData;
@@ -29,8 +30,8 @@ export default function AboutSection({ profile }: AboutSectionProps) {
           <div className="md:flex">
             <div className="md:w-1/3 relative min-h-[300px] md:min-h-0">
               <Image
-                src={profile.profilePicture}
-                alt={profile.name}
+                src={ProfilePic}
+                alt="Tejas Gadge"
                 layout="fill"
                 objectFit="cover"
                 className="transition-transform duration-500 hover:scale-105"
