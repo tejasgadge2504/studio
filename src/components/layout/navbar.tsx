@@ -59,7 +59,7 @@ export default function Navbar() {
     )}>
       <div className="container mx-auto flex items-center justify-between h-20 px-4 md:px-6">
         <Link href="#hero" className="text-2xl font-headline font-bold text-primary hover:opacity-80 transition-opacity" onClick={handleLinkClick}>
-          InnoFolio
+          Tejas Gadge
         </Link>
         <nav className="hidden md:flex space-x-2">
           {navItems.map((item) => (
