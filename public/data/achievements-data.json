@@ -1,34 +1,138 @@
 [
   {
-    "id": "ach1",
-    "title": "First Place, InnovateX Hackathon 2023",
-    "description": "Led a team to develop a prize-winning solution for urban sustainability using IoT and AI.",
-    "year": 2023,
+    "id": "ach2025-1",
+    "title": "1st Runner-Up, SYRUS Hackathon 2025",
+    "description": "Secured the first runner-up position at SYRUS Hackathon under UPTIQ Track for building FinEase, an AI-powered financial assistant.",
+    "year": 2025,
     "iconName": "Trophy",
     "link": "#"
   },
   {
-    "id": "ach2",
-    "title": "Certified Kubernetes Application Developer (CKAD)",
-    "description": "Achieved CKAD certification, demonstrating expertise in designing, building, and deploying cloud-native applications on Kubernetes.",
-    "year": 2022,
+    "id": "ach2025-2",
+    "title": "1st Prize, Buzzpro 2025",
+    "description": "Won first prize for an innovative solution presented during Buzzpro 2025 at VESIT.",
+    "year": 2025,
     "iconName": "Award",
     "link": "#"
   },
   {
-    "id": "ach3",
-    "title": "Speaker at TechForward Conference 2021",
-    "description": "Presented on 'The Future of Serverless Architectures' to an audience of industry professionals.",
-    "year": "2021",
+    "id": "ach2025-3",
+    "title": "Semi-Finalist, Project DeepBlue Season 10",
+    "description": "Reached the semi-finals of Project DeepBlue Season 10 with an impactful tech-driven social innovation project.",
+    "year": 2025,
+    "iconName": "Star",
+    "link": "#"
+  },
+  {
+    "id": "ach2025-4",
+    "title": "Finalist, VES Hack It (11th out of 370 Teams)",
+    "description": "Ranked among the top 11 teams out of 370 in VES Hack It 2025 hackathon event.",
+    "year": 2025,
     "iconName": "Presentation",
     "link": "#"
   },
   {
-    "id": "ach4",
-    "title": "Open Source Contributor - NovaUI Library",
-    "description": "Contributed significant features and bug fixes to a popular open-source UI component library.",
-    "year": "Ongoing",
+    "id": "ach2025-5",
+    "title": "Finalist, Hire-a-thon by Hiremate",
+    "description": "Selected as finalist in the national Hire-a-thon organized by Hiremate.",
+    "year": 2025,
+    "iconName": "Briefcase",
+    "link": "#"
+  },
+  {
+    "id": "ach2024-1",
+    "title": "1st Prize, Hackaurora 2024",
+    "description": "Won ₹30,000 for building an AI-driven solution during Hackaurora organized by VJTI.",
+    "year": 2024,
+    "iconName": "Trophy",
+    "link": "https://www.linkedin.com/posts/tejas-gadge-8a395b258_hackaurora2024-technovanza-ai-ugcPost-7280648554086305792-TpG8"
+  },
+  {
+    "id": "ach2024-2",
+    "title": "1st Rank, DSA Competition by Codecell VESIT",
+    "description": "Secured 1st position in the DSA competition held by CodeCell at VESIT.",
+    "year": 2024,
+    "iconName": "Award",
+    "link": "#"
+  },
+  {
+    "id": "ach2024-3",
+    "title": "Semi-Finalist, Aavishkar Research Convention",
+    "description": "Selected as semi-finalist in the 19th Aavishkar Inter-Collegiate Research Convention.",
+    "year": 2024,
+    "iconName": "Flask",
+    "link": "#"
+  },
+  {
+    "id": "ach2024-4",
+    "title": "1st Prize, KAINOS 2024 National Hackathon",
+    "description": "Won ₹50,000 at KAINOS AI ML Hackathon by RAIT ACM.",
+    "year": 2024,
+    "iconName": "Trophy",
+    "link": "https://www.linkedin.com/posts/anisha-shankar-_hackathonwin-kainos2024-ai-activity-7266814137098194944-uSiB"
+  },
+  {
+    "id": "ach2024-5",
+    "title": "2nd Prize, Poster Presentation (RightsQuest - Llama3)",
+    "description": "Won second prize for RightsQuest, an educational LLM project at a poster presentation event.",
+    "year": 2024,
+    "iconName": "BookOpen",
+    "link": "#"
+  },
+  {
+    "id": "ach2024-6",
+    "title": "Hacktoberfest 2024 Contributor",
+    "description": "Successfully merged 4 PRs during Hacktoberfest 2024 and received official recognition.",
+    "year": 2024,
     "iconName": "Github",
+    "link": "https://www.holopin.io/hacktoberfest2024/userbadge/cm367gfbm01980cl5eymz3kgh"
+  },
+  {
+    "id": "ach2024-7",
+    "title": "Qualified, SIH Internal Hackathon",
+    "description": "Qualified in the internal rounds for Smart India Hackathon 2024.",
+    "year": 2024,
+    "iconName": "Lightbulb",
+    "link": "#"
+  },
+  {
+    "id": "ach2024-8",
+    "title": "Participant, GDSC Study Jam",
+    "description": "Actively participated in two Google Developer Student Club Study Jams.",
+    "year": 2024,
+    "iconName": "Users",
+    "link": "#"
+  },
+  {
+    "id": "ach2024-9",
+    "title": "Website Deployed – Genius Academy",
+    "description": "Developed and deployed a live educational platform website for Genius Academy.",
+    "year": 2024,
+    "iconName": "Globe",
+    "link": "https://www.geniusacademyonline.com/"
+  },
+  {
+    "id": "ach2024-10",
+    "title": "2nd Prize & Best Presenter, Buzzpro 2024",
+    "description": "Won second prize and best presenter award for an AI-driven project at Buzzpro 2024.",
+    "year": 2024,
+    "iconName": "Mic",
+    "link": "#"
+  },
+  {
+    "id": "ach2024-11",
+    "title": "Paper Publication – RAILEASE in IJCA",
+    "description": "Published RAILEASE: Railway Concession Automation at College in IJCA June 2024 Edition.",
+    "year": 2024,
+    "iconName": "FileText",
+    "link": "#"
+  },
+  {
+    "id": "ach2024-12",
+    "title": "Hackathon Participant – Multiple Events",
+    "description": "Participated in Sparkathon, Bid by Bid, Flipkart Grid, Google Gemini API Challenge, Tata Innovent, Prasunethon, Google Solution Challenge, Hackfrost by WeMakeDevs, and Hackonomics.",
+    "year": 2024,
+    "iconName": "Zap",
     "link": "#"
   }
 ]

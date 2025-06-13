@@ -33,7 +33,7 @@ export default async function Footer() {
           &copy; {currentYear} {profileData.name}. All rights reserved.
         </p>
         <p className="text-xs text-muted-foreground/70 mt-1">
-          Built with Next.js and Tailwind CSS. Designed by InnoFolio.
+          Built with ❤️‍🔥 by Tejas Gadge
         </p>
       </div>
     </footer>

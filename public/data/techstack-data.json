@@ -1,14 +1,54 @@
 [
   { "id": "ts1", "name": "JavaScript", "iconName": "FileJson", "category": "Languages", "proficiency": 95 },
   { "id": "ts2", "name": "TypeScript", "iconName": "FileCode", "category": "Languages", "proficiency": 90 },
-  { "id": "ts3", "name": "Python", "iconName": "Binary", "category": "Languages", "proficiency": 85 },
-  { "id": "ts4", "name": "React", "iconName": "Atom", "category": "Frontend", "proficiency": 95 },
-  { "id": "ts5", "name": "Next.js", "iconName": "Webhook", "category": "Frontend", "proficiency": 90 },
-  { "id": "ts6", "name": "Node.js", "iconName": "Server", "category": "Backend", "proficiency": 90 },
-  { "id": "ts7", "name": "Express.js", "iconName": "Network", "category": "Backend", "proficiency": 85 },
-  { "id": "ts8", "name": "PostgreSQL", "iconName": "Database", "category": "Databases", "proficiency": 80 },
+  { "id": "ts3", "name": "Python", "iconName": "Binary", "category": "Languages", "proficiency": 90 },
+  { "id": "ts4", "name": "React + Vite", "iconName": "Atom", "category": "Development", "proficiency": 95 },
+  { "id": "ts5", "name": "Next.js", "iconName": "Webhook", "category": "Development", "proficiency": 90 },
+  { "id": "ts6", "name": "Node.js", "iconName": "Server", "category": "Development", "proficiency": 80 },
+  { "id": "ts7", "name": "Flask", "iconName": "Network", "category": "Development", "proficiency": 90 },
+  { "id": "ts8", "name": "Firebase", "iconName": "Database", "category": "Databases", "proficiency": 80 },
   { "id": "ts9", "name": "MongoDB", "iconName": "Container", "category": "Databases", "proficiency": 75 },
-  { "id": "ts10", "name": "Docker", "iconName": "Box", "category": "DevOps", "proficiency": 80 },
+  { "id": "ts10", "name": "Flutter", "iconName": "Box", "category": "Development", "proficiency": 80 },
   { "id": "ts11", "name": "AWS", "iconName": "Cloud", "category": "Cloud", "proficiency": 70 },
-  { "id": "ts12", "name": "Git", "iconName": "GitMerge", "category": "Tools", "proficiency": 95 }
+  { "id": "ts12", "name": "Git", "iconName": "GitMerge", "category": "Tools", "proficiency": 95 },
+  { "id": "ts13", "name": "Cloudinary", "iconName": "Cloud", "category": "Cloud", "proficiency": 90 },
+  { "id": "ts14", "name": "UPTIQ AI", "iconName": "GitMerge", "category": "Tools", "proficiency": 95 },
+  { "id": "ts15", "name": "Power BI / Tableau", "iconName": "GitMerge", "category": "Tools", "proficiency": 80 },
+
+  {
+    "id": "ts16",
+    "name": "AWS Academy Cloud Foundations",
+    "iconName": "Cloud",
+    "category": "Certifications",
+    "proficiency": 100
+  },
+  {
+    "id": "ts17",
+    "name": "Google Cloud: Cloud Fundamentals",
+    "iconName": "Cloud",
+    "category": "Certifications",
+    "proficiency": 100
+  },
+  {
+    "id": "ts18",
+    "name": "Networking Basics (Cisco)",
+    "iconName": "Network",
+    "category": "Certifications",
+    "proficiency": 100
+  },
+  {
+    "id": "ts19",
+    "name": "Develop GenAI Apps with Gemini & Streamlit",
+    "iconName": "Sparkles",
+    "category": "Certifications",
+    "proficiency": 100
+  },
+  {
+    "id": "ts20",
+    "name": "Prompt Design in Vertex AI",
+    "iconName": "PenTool",
+    "category": "Certifications",
+    "proficiency": 100
+  }
+
 ]

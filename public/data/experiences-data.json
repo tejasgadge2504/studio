@@ -1,58 +1,45 @@
 [
   {
-    "id": "exp1",
-    "company": "Innovatech Solutions",
-    "role": "Senior Software Engineer",
-    "duration": "Jan 2022 - Present",
-    "responsibilities": [
-      "Led the development of key features for flagship SaaS product, improving user engagement by 20%.",
-      "Mentored junior developers and conducted code reviews to maintain high code quality standards.",
-      "Collaborated with cross-functional teams to define project scope, requirements, and deliverables.",
-      "Architected and implemented scalable microservices using Node.js and Docker."
-    ],
-    "logo": "https://placehold.co/100x100.png",
-    "logoAiHint": "modern office"
-  },
+  "id": "exp1",
+  "company": "Vivekanand Education Society’s Institute of Technology",
+  "role": "Generative AI Intern",
+  "duration": "July 1, 2024 – July 31, 2024",
+  "responsibilities": [
+    "Developed AI-powered applications 'RightsQuest' and 'Heartistry' using Open Source Meta-LLaMA models.",
+    "Designed interactive stories and bullying scenarios to teach students about human rights and empathy.",
+    "Utilized LLaMA-based language models to generate content dynamically for quizzes and educational modules.",
+    "Collaborated with team members remotely to integrate AI-generated outputs into a gamified learning interface."
+  ],
+  "logo": "https://placehold.co/100x100.png",
+  "logoAiHint": "AI internship, educational institution"
+}
+,
   {
-    "id": "exp2",
-    "company": "NextGen Web Ltd.",
-    "role": "Full-Stack Developer",
-    "duration": "Jun 2019 - Dec 2021",
-    "responsibilities": [
-      "Developed and maintained responsive web applications using React and Python (Django).",
-      "Integrated third-party APIs for payment processing and social media logins.",
-      "Contributed to database design and optimization (PostgreSQL).",
-      "Participated in agile development cycles, including sprint planning and daily stand-ups."
-    ],
-    "logo": "https://placehold.co/100x100.png",
-    "logoAiHint": "abstract technology"
-  },
-  {
-    "id": "exp3",
-    "company": "NextGen Web Ltd.",
-    "role": "Full-Stack Developer",
-    "duration": "Jun 2019 - Dec 2021",
-    "responsibilities": [
-      "Developed and maintained responsive web applications using React and Python (Django).",
-      "Integrated third-party APIs for payment processing and social media logins.",
-      "Contributed to database design and optimization (PostgreSQL).",
-      "Participated in agile development cycles, including sprint planning and daily stand-ups."
-    ],
-    "logo": "https://placehold.co/100x100.png",
-    "logoAiHint": "abstract technology"
-  },
-  {
-    "id": "exp4",
-    "company": "NextGen Web Ltd.",
-    "role": "Full-Stack Developer",
-    "duration": "Jun 2019 - Dec 2021",
-    "responsibilities": [
-      "Developed and maintained responsive web applications using React and Python (Django).",
-      "Integrated third-party APIs for payment processing and social media logins.",
-      "Contributed to database design and optimization (PostgreSQL).",
-      "Participated in agile development cycles, including sprint planning and daily stand-ups."
-    ],
-    "logo": "https://placehold.co/100x100.png",
-    "logoAiHint": "abstract technology"
-  }
+  "id": "exp2",
+  "company": "Genius Academy, Kalyan-Badlapur",
+  "role": "Web Developer",
+  "duration": "Jan 2024 - June 2024",
+  "responsibilities": [
+    "Redesigned the academy’s web platform with a lightweight, mobile-friendly interface to enhance accessibility.",
+    "Integrated an AI-powered chatbot to assist users with queries and navigation.",
+    "Improved overall user experience, leading to a noticeable increase in mobile traffic and engagement.",
+    "Ensured responsive design compatibility across various devices and screen sizes."
+  ],
+  "logo": "https://placehold.co/100x100.png",
+  "logoAiHint": "educational website, web development"
+},
+{
+  "id": "exp3",
+  "company": "Genius Academy",
+  "role": "Educator",
+  "duration": "Sept 2022 - Present",
+  "responsibilities": [
+    "Teaching core computer science concepts with a focus on practical, real-world applications.",
+    "Mentored 500+ students, helping them achieve academic and career excellence.",
+    "Designed engaging lesson plans and delivered sessions on programming, algorithms, and software tools.",
+    "Provided personalized guidance and career counseling to support student growth and confidence."
+  ],
+  "logo": "https://placehold.co/100x100.png",
+  "logoAiHint": "classroom teaching, computer science education"
+}
 ]
