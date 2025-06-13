@@ -3,6 +3,9 @@
 import { z } from 'zod';
 import { validateContactForm } from '@/ai/flows/validate-contact-form';
 import { rewriteContactFormMessage } from '@/ai/flows/rewrite-message';
+import { Resend } from 'resend';
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 const contactFormSchema = z.object({
   name: z.string().min(2, "Name is too short"),
@@ -27,7 +30,6 @@ export async function submitContactForm(data: ContactFormSchemaType): Promise<Ac
     return {
       success: false,
       message: "Invalid form data.",
-      // More detailed errors can be extracted from validationResult.error.flatten()
     };
   }
 
@@ -46,38 +48,47 @@ export async function submitContactForm(data: ContactFormSchemaType): Promise<Ac
     }
   } catch (error) {
     console.error("AI validation error:", error);
-    // Proceed without AI validation if it fails, or return an error
-    // For now, let's log and proceed. Depending on requirements, this could be a hard stop.
   }
-  
-  // Step 2: AI Rewrite Message (if validation passed or was skipped)
+
+  // Step 2: AI Rewrite
   let finalMessage = message;
   let aiSuggestion: string | undefined = undefined;
+
   try {
     const rewriteResult = await rewriteContactFormMessage({ name, email, message });
     if (rewriteResult.rewrittenMessage && rewriteResult.rewrittenMessage !== message) {
       finalMessage = rewriteResult.rewrittenMessage;
-      aiSuggestion = rewriteResult.rewrittenMessage; // Store suggestion if needed for UI
+      aiSuggestion = finalMessage;
     }
   } catch (error) {
     console.error("AI rewrite error:", error);
-    // Use original message if rewrite fails
   }
 
-  // Step 3: "Send" email (simulate for now)
-  console.log("Sending email (simulated):");
-  console.log(`To: your.email@example.com (from profile)`);
-  console.log(`From: ${name} <${email}>`);
-  console.log(`Subject: New Contact Form Submission from InnoFolio`);
-  console.log(`Message (potentially rewritten):`);
-  console.log(finalMessage);
-  
-  // Simulate email sending delay
-  await new Promise(resolve => setTimeout(resolve, 1000));
+  // Step 3: Send Email via Resend
+  try {
+    await resend.emails.send({
+      from: 'Tejas Contact Form <onboarding@resend.dev>',
+      to: 'tejasgadge903@gmail.com',
+      subject: `New Contact Form Submission from ${name}`,
+      html: `
+        <h2>New Message Received</h2>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Message:</strong></p>
+        <p>${finalMessage}</p>
+      `,
+    });
 
-  return {
-    success: true,
-    message: "Form submitted successfully!",
-    aiSuggestion: aiSuggestion // Pass back the rewritten message if different
-  };
+    return {
+      success: true,
+      message: "Form submitted successfully!",
+      aiSuggestion,
+    };
+  } catch (error) {
+    console.error("Email sending error:", error);
+    return {
+      success: false,
+      message: "Failed to send email. Please try again.",
+    };
+  }
 }
