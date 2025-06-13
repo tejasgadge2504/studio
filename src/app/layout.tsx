@@ -10,8 +10,8 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk' });
 
 export const metadata: Metadata = {
-  title: 'InnoFolio - Portfolio',
-  description: 'A modern portfolio showcasing innovation and expertise.',
+  title: 'Tejas Gadge - portfolio.',
+  description: 'Happy Exploring.',
 };
 
 export default function RootLayout({
