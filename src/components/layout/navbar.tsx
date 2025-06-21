@@ -15,6 +15,7 @@ const navItems: SectionNavItem[] = [
   { id: 'tech-stack', label: 'Skills', href: '#tech-stack' },
   { id: 'achievements', label: 'Achievements', href: '#achievements' },
   { id: 'contact', label: 'Contact', href: '#contact' },
+
 ];
 
 export default function Navbar() {

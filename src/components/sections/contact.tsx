@@ -27,6 +27,12 @@ export default function ContactSection({ profile }: ContactSectionProps) {
                   {profile.email}
                 </a>
               </div>
+              <div className="flex items-center space-x-3">
+                <MapPin className="w-6 h-6 text-primary" />
+                <a href="https://drive.google.com/drive/folders/17K_ytU4VsP6mq5gZhGBuYWcxejH0FjZ0?usp=sharing" target='blank' className="text-muted-foreground hover:text-primary transition-colors">
+                  Goto Councelling
+                </a>
+              </div>
               {/* Example additional contact info - can be added to profile-data.json if needed */}
               {/* <div className="flex items-center space-x-3">
                 <Phone className="w-6 h-6 text-primary" />
